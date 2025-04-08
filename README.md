@@ -15,41 +15,47 @@ We developed a robotic arm designed to automate tooth brushing—offering a reli
 
 ---
 
-### 2. [Autonomous Path Tracking Robot](https://github.com/your-username/autonomous-path-tracking-robot)
-A ROS-based robot capable of performing object detection and path tracking. This project focuses on designing algorithms for autonomous navigation and control using sensor inputs.
+### 2. [Cruise Control C++ Project](https://github.com/go52cay/salmaabass.github.io/tree/main/Cruise%20Control%20C%2B%2B%20Project)
+This C++ project implements a PID-based cruise control system for a simplified car model, factoring in rolling resistance and aerodynamic drag. The system and PID controller are initially solved with an Euler method, then refactored into an object-oriented structure for modularity. Finally, performance optimization ensures efficient runtime. A blend of control theory and C++ programming for smooth, automated speed control.
 
-**Technologies Used**: ROS, Python, OpenCV, Sensor Fusion, Path Planning
+**Technologies Used**: Matlab/Simulink, C++, Python, 
 
 ---
 
-### 3. [Capacitive Force Sensor](https://github.com/your-username/hvac-control-system)
+### 3. [Capacitive Force Sensor](https://github.com/go52cay/salmaabass.github.io/tree/main/Capacitive%20Force%20Sensor%20Project)
 This project presents the development and analysis of a capacitive-based force sensor utilizing ABS
 (Acrylonitrile Butadiene Styrene) material. The sensor’s core principle lies in the conversion of physical changes induced by applied forces into measurable capacitance alterations within the sensor’s circuitry.
 **Technologies Used**: Solidworks, 3D printing, Ansys Simulation, PCB design
 
 ---
 
-### 4. [INDI Control and Aircraft Landing System](https://github.com/your-username/aircraft-landing-system)
+### 4. [INDI Control and Aircraft Landing System](https://github.com/go52cay/salmaabass.github.io/tree/main/INDI%20Control%20and%20Aircraft%20Landing%20System)
 For my Bachelor's thesis at the University of Stuttgart, I researched Incremental Nonlinear Dynamic Inversion (INDI) control techniques for aircraft automation, specifically in the context of automated landing procedures. Here you will find the Final Thesis.
 
 **Technologies Used**: MATLAB, Simulink, Flight Dynamics, Control Theory, XFLR5 Analysis
 
 ---
 
-### 5. [Metal Separation ](https://github.com/your-username/pde-arena)
+### 5. [Metal Separation ](https://github.com/go52cay/salmaabass.github.io/tree/main/Metal%20Separation%20Project)
 The main objective of this project is to separate metallic materials from non-metallic ones by integrating electronics (relyas and switches) and pneumatics(double acting cylinders). We even MacGyvered an electromagnet from an old transformer by isolating the primary coil—because, surprise, the electromagnet was pricier than the whole project! Talk about making do with what you've got!.
 
 **Technologies Used**: Solidworks, Fluidsim, Soldering
 
 ---
-### 6. [Firefighting Robot Prototype](https://github.com/your-username/pde-arena)
+### 6. [Firefighting Robot Prototype](http://github.com/go52cay/salmaabass.github.io/tree/main/Firefighter%20Protoype)
 
 This prototype is designed to detect and tackle small fires before they escalate. Using six IR photodiodes for 360° flame detection, an ultrasonic sensor for obstacle avoidance, and a DC pump for extinguishing, it’s controlled by an ATmega328p microcontroller, all integrated on a custom-designed PCB. Simple, scrappy, and ready to save the day.
 
 **Technologies Used**: PCB design, Matlab, C programming Language
 
 ---
+### 7. [Heat Exchanger Temperature Prediction with Machine Learning](https://github.com/your-username/pde-arena)
 
+This machine learning model predicts the outflow temperature of a heat exchanger system based on the last 50 target temperatures. The model is trained on time-series data from multiple system responses, and it also estimates the 5th and 95th percentiles to assess the risk of extreme temperature fluctuations that could damage the system.
+
+**Technologies Used**: Python, Pytorch, Machine Learning
+
+---
 
 ## 📫 Contact
 If you would like to learn more about my work or collaborate on a project, feel free to reach out:
