@@ -8,7 +8,7 @@ This repository serves as a showcase of my personal and academic projects. Here,
 
 ## 🚀 Featured Projects
 
-### 1. [Automatic teeth-brushing robotic arm ](https://github.com/your-username/autonomous-path-tracking-robot)
+### 1. [Automatic teeth-brushing robotic arm ](https://github.com/go52cay/salmaabass.github.io/tree/main/automatic%20teeth-brushing%20robot)
 We developed a robotic arm designed to automate tooth brushing—offering a reliable solution for individuals with limited mobility due to conditions such as cerebral palsy, motor neuron disease, or age-related impairments. This handy helper brings together 3D printing, SolidWorks, Arduino, MATLAB/Simulink, Simscape, and a few servo motors doing their best impression of a dental hygienist. It's personal care, with a techy twist.
 
 **Technologies Used**: 3D printing, Arduino, MATLAB/Simulink, Simscape
