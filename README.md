@@ -49,7 +49,7 @@ This prototype is designed to detect and tackle small fires before they escalate
 **Technologies Used**: PCB design, Matlab, C programming Language
 
 ---
-### 7. [Heat Exchanger Temperature Prediction with Machine Learning](https://github.com/your-username/pde-arena)
+### 7. [Heat Exchanger Temperature Prediction with Machine Learning](https://github.com/go52cay/salmaabass.github.io/tree/main/Heat%20Exchanger%20Temperature%20Prediction%20with%20Machine%20Learning)
 
 This machine learning model predicts the outflow temperature of a heat exchanger system based on the last 50 target temperatures. The model is trained on time-series data from multiple system responses, and it also estimates the 5th and 95th percentiles to assess the risk of extreme temperature fluctuations that could damage the system.
 
