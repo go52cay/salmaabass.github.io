@@ -1,0 +1,51 @@
+race_tracker_node:
+  ros__parameters:
+    # YOLO model path (installed to package)
+    yolo_model_path: "/home/f1tenth/f1tenth_auto_blocking/labs_ws25/install/car_distance_estimator/share/car_distance_estimator/models/best.engine"
+    
+    # YOLO thresholds
+    yolo_conf_threshold: 0.4
+    yolo_imgsz: 640
+    
+    # Vehicle measurements (in meters)
+    vehicle_height: 0.20
+    
+    # Camera calibration
+    focal_length: 528.15
+    
+    # Distance method offsets (in meters)
+    offset_bb_measure: 0.17
+    offset_stereo_cam: 0.20
+    
+    # Debug
+    debug_mode: false
+
+
+raceline_manager:
+  ros__parameters:
+    # Distance to trigger blocking behaviour of the car (in meters)
+    blocking_distance_threshold: 2.0
+
+    # ID of the optimal raceline (ignoring blocking behaviors)
+    raceline_ID: 1
+
+    # Image width
+    camera_image_width: 1280
+
+    # Center buffer for middle (ideal) raceline
+    bbox_center_buffer: 0.10
+
+    # Where in the image is the center considered (normalize; default = 0.5)
+    center_line_buffer: 0.55
+
+    # Number of iterations without detection to switch to default raceline
+    iterations_without_detection: 45
+
+    # Max iterations before allowing raceline ID change
+    iterations_threshold_for_changing_ID: 15
+
+    # Max iterations without detection before switching to default raceline
+    iterations_before_defaulting_ID: 45
+
+    # Node timer rate (in seconds)
+    node_timer_rate: 0.033
